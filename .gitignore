@@ -151,7 +151,6 @@ secrets.json  # JSON format secrets
 .aws/config
 
 # PostgreSQL database dumps (if you export or backup databases)
-*.sql
 *.dump
 
 # Pandas data files (optional, if you handle data locally)
