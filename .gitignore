@@ -140,7 +140,7 @@ cython_debug/
 
 # Custom sensitive files for this PROJECT (SQLAlchemy, boto3, psycopg2, or general config files
 data_conn.yaml  # Database credentials
-aws_db_creds.yaml  # AWS RDS database credentials
+aws_db_creds.yaml 
 local_db_creds.yaml
 main.py  # Main Python file
 config.yaml  # General configuration files
