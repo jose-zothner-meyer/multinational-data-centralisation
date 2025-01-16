@@ -129,6 +129,15 @@ You can commit `config.ini` if it contains no secrets (or else exclude it).
 
 ---
 
+# Requirements File
+
+The `requirements.txt` file lists all the Python packages that are needed to run this project. It ensures that anyone who wants to run the project can install the exact versions of the packages that were used during development. To install the dependencies, run:
+
+```bash
+pip install -r requirements.txt
+```
+---
+
 # Outcome
 
 By completing this project, I will have:
@@ -139,3 +148,9 @@ By completing this project, I will have:
 - Gained practical experience in data engineering and analytics, bridging raw data to actionable insights.
 - Implemented secure **secrets management** for sensitive configurations using YAML.
 - Maintained non-sensitive endpoints and resource locations in a `config.ini` for clean, modular code.
+- Answered key business questions using <b>SQL</b> queries on the centralised database, such as:
+  - Identifying the top-selling products across different regions.
+  - Analyzing sales trends over time to forecast future sales.
+  - Determining the most profitable stores and regions.
+  - Evaluating the effectiveness of marketing campaigns based on sales data.
+  - Understanding customer purchasing behavior and preferences.

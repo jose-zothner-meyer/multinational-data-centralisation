@@ -7,6 +7,7 @@ import pandas as pd
 from database_connector import DatabaseConnector
 from data_extractor import DataExtractor
 from data_cleaning import DataCleaning
+import pkg_resources
 
 # 1. Load config.ini
 config = configparser.ConfigParser()
@@ -177,3 +178,10 @@ if __name__ == "__main__":
     product_clean()
     orders_clean()
     dates_clean()
+
+    def export_requirements():
+        with open('requirements.txt', 'w') as f:
+            for dist in pkg_resources.working_set:
+                f.write(f"{dist.project_name}=={dist.version}\n")
+
+    export_requirements()
