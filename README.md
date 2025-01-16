@@ -99,6 +99,7 @@ store_details_endpoint = https://example-execute-api.com/prod/store_details
 pdf_link = https://data-handling-public.s3.eu-west-1.amazonaws.com/card_details.pdf
 s3_uri = s3://data-handling-public/products.csv
 json_url = https://data-handling-public.s3.eu-west-1.amazonaws.com/date_details.json
+```
 
 # Why Use config.ini?
 
