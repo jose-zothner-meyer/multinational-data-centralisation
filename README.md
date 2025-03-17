@@ -46,6 +46,19 @@ The goal is to explore the end-to-end process of sourcing, cleaning, and central
 
 ---
 
+## **Technologies Used**
+- **Python**: Core programming language for the project.
+- **Jupyter**: For creating and sharing documents that contain live code, equations, visualizations, and narrative text.
+- **Pandas**: For data manipulation and analysis.
+- **Numpy**: For numerical operations.
+- **SQLAlchemy**: For database interactions.
+- **Boto3**: For interacting with AWS services.
+- **Matplotlib**: For creating static, animated, and interactive visualizations.
+- **Plotly**: For creating interactive plots.
+- **AWS RDS**: For hosting the relational database.
+
+---
+
 ## **Secrets Management Using YAML**
 - This project manages sensitive information (API keys, database credentials) via **YAML** files.
 - These YAML files store secrets in a structured, human-readable format while remaining separate from the main codebase.
@@ -145,9 +158,10 @@ By completing this project, I will have:
 - Built a robust **ETL pipeline** for retail sales data.
 - Centralised the data into a **single database** for analysis.
 - Designed a scalable **star-schema** model for efficient querying.
-- Gained practical experience in data engineering and analytics, bridging raw data to actionable insights.
+- Gained practical experience in **data engineering and analytics, bridging raw data to actionable insights**.
 - Implemented secure **secrets management** for sensitive configurations using YAML.
 - Maintained non-sensitive endpoints and resource locations in a `config.ini` for clean, modular code.
+  
 - Answered key business questions using <b>SQL</b> queries on the centralised database, such as:
   - Identifying the top-selling products across different regions.
   - Analyzing sales trends over time to forecast future sales.
